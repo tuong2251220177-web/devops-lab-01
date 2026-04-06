@@ -20,7 +20,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci   # dùng npm ci để cài chính xác các package, bao gồm devDependencies
 
       - name: Run tests
         run: npx jest --watchAll=false
