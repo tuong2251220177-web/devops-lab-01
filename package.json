@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll=false"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
